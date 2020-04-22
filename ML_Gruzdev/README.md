@@ -2,15 +2,6 @@
 
 The purpose of this program was to learn project structure and practice in end-to-end project building. For academic purposes, we have created a simple parts of speech tagger based on a long short term memory model using simple binary hieroglyphic features.
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
-## Requirements
-  - python 3.7
-  - pytorch
-  - conllu
-
 ## Organisation
 The code in the repository is organized as follows:
   - main.py: driver code;
@@ -19,6 +10,12 @@ The code in the repository is organized as follows:
   - util.py: utility functions
 
 # Usage
+
+## Install requirements
+```bash
+pip3 install -r requirements.txt
+
+```
 
 ## Download data
 Use get_data.py to download necessary data in conllu format + hanzi (hieroglyph) lookup list.
